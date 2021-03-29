@@ -78,8 +78,7 @@ setuptools.setup(
     description="".join(
         [
             (
-                "pyani provides a package and script for calculation of "
-                "genome-scale average nucleotide identity."
+                "pyani provides a package and script for calculation of genome-scale average nucleotide identity."
             )
         ]
     ),
@@ -110,6 +109,7 @@ setuptools.setup(
         "pandas",
         "scipy",
         "seaborn",
+        "sqlalchemy",
         "tqdm",
     ],
     classifiers=[
